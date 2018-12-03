@@ -1,0 +1,29 @@
+{
+  "name": "nderson_lopes",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eu Mesmo",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-image": "^4.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niinoolopes/onepage-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niinoolopes/onepage-02/issues"
+  },
+  "homepage": "https://github.com/niinoolopes/onepage-02#readme"
+}

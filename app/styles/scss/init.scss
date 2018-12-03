@@ -1,0 +1,17 @@
+//misc settings
+// @import 'config/_settings';
+@import 'config/_mixins';
+
+//frameworks
+
+//global things
+@import 'general/_normalize';
+@import 'layout/_grid';
+@import 'config/_variables';
+// @import 'config/_swiper';
+
+//pages
+@import 'pages/_header';
+@import 'pages/_menu';
+@import 'pages/intro';
+// @import 'pages/_index';

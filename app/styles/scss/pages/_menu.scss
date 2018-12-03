@@ -1,0 +1,17 @@
+.menu-list{
+    list-style-type: none;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+.menu-list a{
+    display: block;
+    margin: 0 28px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
