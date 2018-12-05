@@ -1,20 +1,65 @@
 .intro{
-    background: red;
+    padding: 150px 12px 90px;
+    background: #232222;
+    @include MediaQueryMin(S){
+        padding: 240px 0 30px;
+    }
 }
-.intro .container{
-    min-height: 630px;
+.intro-text{
+    padding: 55px 0;
+    position: relative;
 }
+// .e-line{
+// }
+// .e-line-top{
+// }
+// .e-line-bottom{
+// }
+
+.intro .e-line-top:before,
+.intro .e-line-top:after{
+    border-top-color: #fff;
+}
+.intro .e-line-top:before{
+    border-left-color: #fff;
+}
+.intro .e-line-top:after{
+    border-right-color: #fff;
+}
+.intro .e-line-bottom:before,
+.intro .e-line-bottom:after{
+    border-bottom-color: #fff;
+}
+.intro .e-line-bottom:before{
+    border-left-color: #fff;
+}
+.intro .e-line-bottom:after{
+    border-right-color: #fff;
+}
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     position: absolute;
+// }
+.intro // .e-line-top-top{
+//     top: 0;
+// }
+ 
+
+
 .intro-titulo{
     display: block;
-    padding-top: 40vh;
-    font-size: 2.625em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    @include MediaQueryMin(S){
+        font-size: 2.625em;
+    }
 }
 .intro-btn{
     display: block;
-    margin: 32px auto;
+    margin: 32px auto 0;
     width: fit-content;
     background: rgba(255, 255, 255, .1);
     border: 2px solid #fff;

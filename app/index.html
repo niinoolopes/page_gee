@@ -13,38 +13,392 @@
 </head>
 
 <body>
-    <header>
+    <header class="header-topo">
         <div class="container">
-            <img class="header-img" src="assets/logo.png" alt="">
+            <a href="#intro" class="link">
+                <img class="header-img" src="assets/logo.png" alt="">
+            </a>
+            <button class="header-btn">
+                <span class="btn-mobile"> </span>
+            </button>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#sobre" class="link">O evento</a>
+                    </li>
+                    <li>
+                        <a href="#palestrante" class="link">Palestrantes</a>
+                    </li>
+                    <li>
+                        <a href="#agenda" class="link">Agenda</a>
+                    </li>
+                    <li>
+                        <a href="#patrocinador" class="link">Patrocinador</a>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com.br" class="link-out" target="_blank">Participar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="header-fixed">
+        <div class="container">
+            <a href="#intro" class="link">
+                <img class="header-img" src="assets/logo.png" alt="">
+            </a>
             <button class="header-btn">
                 <span class="btn-mobile"></span>
             </button>
             <nav class="menu">
                 <ul class="menu-list">
                     <li>
-                        <a href="#" class="link">O evento</a>
+                        <a href="#sobre" class="link">O evento</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Palestrantes</a>
+                        <a href="#palestrante" class="link">Palestrantes</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Agenda</a>
+                        <a href="#agenda" class="link">Agenda</a>
                     </li>
                     <li>
-                        <a href="#" class="link">itemMenu</a>
+                        <a href="#patrocinador" class="link">Patrocinador</a>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com.br" class="link-out" target="_blank">Participar</a>
                     </li>
                 </ul>
             </nav>
         </div>
-    </header>
-    <section class="intro">
-        <div class="container">
-            <hi class="intro-titulo">Os desafios da docência e da gestão para que os professores continuem a ocupar o lugar-chave que têm no desenvolvimento da educação e dos estudantes. </hi>
-            <a href="#" class="intro-btn">Quer Saber Mais?</a>
-        </div>
     </section>
 
+    <section class="intro" id="intro">
+        <div class="container">
+            <div class="intro-text">
+                <hi class="intro-titulo">Os desafios da docência e da gestão para que os professores continuem a ocupar
+                    o lugar-chave que têm no desenvolvimento da educação e dos estudantes. </hi>
+                <a href="#" class="intro-btn">Quer Saber Mais?</a>
+                <div class="e-line e-line-top"></div>
+                <div class="e-line e-line-bottom"></div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="sobre" id="sobre">
+            <div class="container linha">
+                <div class="quatro colunas sobre-coluna">
+                    <div class="sobre-coluna-img">
+                        <img src="assets/logo.png" alt="" class="sobre-img">
+                        <div class="e-line e-line-top"></div>
+                        <div class="e-line e-line-bottom"></div>
+                    </div>
+                    <p class="sobre-texto">
+                        endereço
+                    </p>
+                    <span>texto</span>
+                </div>
+                <div class="quatro colunas sobre-coluna">
+                    <div class="sobre-coluna-img">
+                        <img src="assets/logo.png" alt="" class="sobre-img">
+                        <div class="e-line e-line-top"></div>
+                        <div class="e-line e-line-bottom"></div>
+                    </div>
+                    <p class="sobre-texto">
+                        endereço
+                    </p>
+                    <span>texto</span>
+                </div>
+                <div class="quatro colunas sobre-coluna">
+                    <div class="sobre-coluna-img">
+                        <img src="assets/logo.png" alt="" class="sobre-img">
+                        <div class="e-line e-line-top"></div>
+                        <div class="e-line e-line-bottom"></div>
+                    </div>
+                    <p class="sobre-texto">
+                        endereço
+                    </p>
+                    <span>texto</span>
+                </div>
+            </div>
+        </section>
+        <section class="container palestrante" id="palestrante">
+            <h2 class="palestrante-titulo">Palestrantes</h2>
+            <div class="palestrante-dia">
+                <p class="palestrante-desc">Curadora dia 27/08</p>
 
+                <div class="curador-bloco linha">
+                    <img src="assets/foto-palestrante.png" alt="" class="curador-foto">
+                    <div class="curador-text">
+                        <p class="curador-nome">Anderson Lopes</p>
+                        <p class="curador-bio">Editora-chefe da Harvard Business Review-Brasil.
+                            Advogada
+                            pela
+                            USP e
+                            Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                            Resolução
+                            de
+                            Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                            Empresarial
+                            pela
+                            FGV/SP e International Relations pela New York University. Sócia fundadora do
+                            Mediativa
+                            –
+                            Instituto de Mediação Transformativa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="palestrante-desc">Curadora dia 27/08</p>
+
+            <div class="palestrantes linha">
+
+                <div class="palestrante-bloco">
+                    <img src="assets/foto-palestrante.png" alt="" class="palestrante-foto">
+                    <p class="palestrante-nome">Anderson Lopes</p>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <span class="modal-btn">x</span>
+                            <header class="modal-header">
+                                <p class="modal-nome">Anderson Lopes</p>
+                            </header>
+                            <div class="modal-body">
+                                <p class="palestrante-bio">Editora-chefe da Harvard Business Review-Brasil.
+                                    Advogada
+                                    pela
+                                    USP e
+                                    Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                                    Resolução
+                                    de
+                                    Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                                    Empresarial
+                                    pela
+                                    FGV/SP e International Relations pela New York University. Sócia fundadora do
+                                    Mediativa
+                                    –
+                                    Instituto de Mediação Transformativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="palestrante-bloco">
+                    <img src="assets/foto-palestrante.png" alt="" class="palestrante-foto">
+                    <p class="palestrante-nome">Anderson Lopes</p>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <span class="modal-btn">x</span>
+                            <header class="modal-header">
+                                <p class="modal-nome">Anderson Lopes</p>
+                            </header>
+                            <div class="modal-body">
+                                <p class="palestrante-bio">Editora-chefe da Harvard Business Review-Brasil.
+                                    Advogada
+                                    pela
+                                    USP e
+                                    Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                                    Resolução
+                                    de
+                                    Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                                    Empresarial
+                                    pela
+                                    FGV/SP e International Relations pela New York University. Sócia fundadora do
+                                    Mediativa
+                                    –
+                                    Instituto de Mediação Transformativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="palestrante-bloco">
+                    <img src="assets/foto-palestrante.png" alt="" class="palestrante-foto">
+                    <p class="palestrante-nome">Anderson Lopes</p>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <span class="modal-btn">x</span>
+                            <header class="modal-header">
+                                <p class="modal-nome">Anderson Lopes</p>
+                            </header>
+                            <div class="modal-body">
+                                <p class="palestrante-bio">Editora-chefe da Harvard Business Review-Brasil.
+                                    Advogada
+                                    pela
+                                    USP e
+                                    Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                                    Resolução
+                                    de
+                                    Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                                    Empresarial
+                                    pela
+                                    FGV/SP e International Relations pela New York University. Sócia fundadora do
+                                    Mediativa
+                                    –
+                                    Instituto de Mediação Transformativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="palestrante-bloco">
+                    <img src="assets/foto-palestrante.png" alt="" class="palestrante-foto">
+                    <p class="palestrante-nome">Anderson Lopes</p>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <span class="modal-btn">x</span>
+                            <header class="modal-header">
+                                <p class="modal-nome">Anderson Lopes</p>
+                            </header>
+                            <div class="modal-body">
+                                <p class="palestrante-bio">Editora-chefe da Harvard Business Review-Brasil.
+                                    Advogada
+                                    pela
+                                    USP e
+                                    Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                                    Resolução
+                                    de
+                                    Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                                    Empresarial
+                                    pela
+                                    FGV/SP e International Relations pela New York University. Sócia fundadora do
+                                    Mediativa
+                                    –
+                                    Instituto de Mediação Transformativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="palestrante-bloco">
+                    <img src="assets/foto-palestrante.png" alt="" class="palestrante-foto">
+                    <p class="palestrante-nome">Anderson Lopes</p>
+                    <div class="modal-container">
+                        <div class="modal-content">
+                            <span class="modal-btn">x</span>
+                            <header class="modal-header">
+                                <p class="modal-nome">Anderson Lopes</p>
+                            </header>
+                            <div class="modal-body">
+                                <p class="palestrante-bio">Editora-chefe da Harvard Business Review-Brasil.
+                                    Advogada
+                                    pela
+                                    USP e
+                                    Jornalista pela PUC-SP, com pós-graduação em Mediação e Métodos Alternativos de
+                                    Resolução
+                                    de
+                                    Conflitos pela Escola Paulista de Magistratura, especialização em Mediação
+                                    Empresarial
+                                    pela
+                                    FGV/SP e International Relations pela New York University. Sócia fundadora do
+                                    Mediativa
+                                    –
+                                    Instituto de Mediação Transformativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section class="container agenda" id="agenda">
+            <h2 class="agenda-titulo">Agenda</h2>
+            <div class="tabela-container">
+                <table class="tabela">
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                    <tr class="tabela-linha">
+                        <td><span class="tabela-horario">18:15h</span></td>
+                        <td>
+                            <p class="tabela-desc">Abertura do evento </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="patrocinador" id="patrocinador">
+            <div class="container">
+                <h2 class="patrocinador-titulo">Patrocinador</h2>
+                <div class="patrocinadores">
+                    <h3 class="patrocinador-subTitulo"> Patrocinador Ouro</h3>
+                    <div class="patrocinadores-lista">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                    </div>
+                </div>
+                <div class="patrocinadores">
+                    <h3 class="patrocinador-subTitulo"> Patrocinador Ouro</h3>
+                    <div class="patrocinadores-lista">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                    </div>
+                </div>
+                <div class="patrocinadores">
+                    <h3 class="patrocinador-subTitulo"> Patrocinador Ouro</h3>
+                    <div class="patrocinadores-lista">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                        <img class="patrocinador-logo" src="assets/logo.png" alt="Logo Patrocinador">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="container linha">
+        <div class="doze colunas">
+            <h2 class="footer-titulo">Contato</h2>
+            <p><b>Entre em contato pelo telefone (011) 3039-5665</b></p>
+        </div>
+    </footer>
     <script src="scripts/main.js"></script>
 </body>
 

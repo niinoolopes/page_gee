@@ -1,0 +1,26 @@
+.e-line{ 
+    position: absolute;
+    width: 100%; 
+}
+.e-line:before,
+.e-line:after{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+}
+.e-line-top{
+    top: 0;
+}
+.e-line-bottom{
+    bottom: 0;
+}
+.e-line-top:before,
+.e-line-bottom:before{
+    float: left;
+}
+.e-line-top:after,
+.e-line-bottom:after{
+    float: right;
+}

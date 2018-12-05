@@ -139,7 +139,7 @@ gulp.task('default', () => {
 // TASK TESTES
 gulp.task('teste', function(){  
     gulp.watch( app +'/'+ css.past +'/'+ css.src +'/'+ css.allFile ,['styles']);
-    // gulp.watch( app +'/'+ javascript.past +'/'+ javascript.src +'/'+ javascript.allFile ,['scripts']);
+    gulp.watch( app +'/'+ javascript.past +'/'+ javascript.src +'/'+ javascript.allFile ,['scripts']);
     gulp.watch( app +'/'+ images.past +'/'+ images.src +'/'+ images.allFile ,['images']);
     gulp.watch( app +'/'+ structure.allFile_html ,['html']);
 }); 
