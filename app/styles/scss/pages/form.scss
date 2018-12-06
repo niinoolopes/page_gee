@@ -1,0 +1,30 @@
+form h2 {
+    text-align: center;
+}
+form label,
+form input{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+}
+form label{
+    margin: 10px 0;
+}
+form input{
+    margin: 10px auto 30px;
+    width: 95%;
+    border: 1px solid transparent;
+    box-shadow: inset 0 0px 10px 2px rgba(102, 156, 0, 0.7);
+    padding: 8px;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background: rgba(102, 156, 0, 0.3);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
