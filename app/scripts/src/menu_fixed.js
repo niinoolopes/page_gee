@@ -11,8 +11,7 @@ const debounce = function (func, wait, immediate) {
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
     };
-}; 
-
+};
 window.addEventListener('scroll', debounce(function() {
     var introHeight = document.querySelector('.intro').offsetHeight / 2
     if( window.pageYOffset > introHeight){  

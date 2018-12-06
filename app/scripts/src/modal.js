@@ -1,4 +1,3 @@
-
 const elementoAbreModal = document.querySelectorAll('[data-modal]');
 elementoAbreModal.forEach((item, index) => {
     item.addEventListener('click', (e) => {

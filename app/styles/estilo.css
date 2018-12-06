@@ -525,7 +525,6 @@ ul, li {
 .btn-mobile::after {
   transform: translate3d(0, 5px, 0); }
 
-/* header scroll */
 .header-fixed {
   display: none; }
   @media (min-width: 769px) {
@@ -683,7 +682,6 @@ footer {
 .intro .e-line-bottom:after {
   border-right-color: #fff; }
 
-.intro
 .intro-titulo {
   display: block;
   font-size: 1.5em;
@@ -691,8 +689,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase; }
   @media (min-width: 599px) {
-    .intro
-.intro-titulo {
+    .intro-titulo {
       font-size: 2.625em; } }
 
 .intro-btn {

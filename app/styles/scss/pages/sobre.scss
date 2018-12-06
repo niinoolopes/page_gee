@@ -14,7 +14,6 @@
     align-items: center;
     position: relative;
 }
-// efeito borda
 .sobre-coluna .e-line:before,
 .sobre-coluna .e-line::after{
     width: 30px;
@@ -40,7 +39,6 @@
 .sobre-coluna .e-line-bottom:after{
     border-right-color: #669c00;
 }
-// efeito borda - FIM
 .sobre-img {
     width: 40px;
     height: 40px;
