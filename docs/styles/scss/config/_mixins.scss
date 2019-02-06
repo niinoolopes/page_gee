@@ -276,3 +276,21 @@
         padding: 48px 0;
     }
 }
+@mixin header_fixed(){
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.25); 
+
+}
+@mixin  header_container() {
+    @include MediaQueryMax(L){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+    }
+}

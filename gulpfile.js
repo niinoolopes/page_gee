@@ -6,7 +6,7 @@ const autoprefixer    = require('gulp-autoprefixer');
 const babel           = require('gulp-babel');
 const uglify          = require('gulp-uglify');
 
-const app = 'app';
+const app = 'docs';
 const structure = {
     allFile_html: '**/*.html', 
 }

@@ -1,20 +1,13 @@
-.header-topo,
-.header-fixed{
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-}
 .header-topo{
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.25);
-    z-index: 1;
+    @include header_fixed();
     @include MediaQueryMin(L){
         box-shadow: unset;
         background: transparent;
         position: absolute;
     }
+}
+.header-topo .container{
+    @include header_container();
 }
 .header-topo .container:before,
 .header-topo .container:after{
@@ -32,18 +25,11 @@
 .header-topo .container:after{
     right: 0;
 } 
-.header-topo .container{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    @include MediaQueryMin(L){
-        display: block;
-    }
-}
-.header-img{
+
+
+.header-topo .header-img{
+    margin: 0 auto;
     display: block;
-    border: none;
     max-width: 80px;
     z-index: 3;
     @include MediaQueryMin(L){
@@ -55,6 +41,7 @@
     background: transparent;
     border: none;
     height: 35px;
+    margin-right: 10px;
     @include MediaQueryMin(L){
         display: none;
     }
@@ -77,45 +64,6 @@
 }
 .btn-mobile::after{
     transform: translate3d(0,5px,0);
-}
- /* header scroll */ 
-.header-fixed{
-    display: none;
-    @include MediaQueryMin(L){
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.25);
-    transform: translate3d(0,-150%,0);
-    transition: .45s;
-    padding: 10px;
-    padding: 8px 0;
-        display: block;
-    }
-} 
-.header-fixed .container{
-    display: flex;
-    align-items: center;
-    @include MediaQueryMin(L){
-        justify-content: flex-start;
-    }
- }
-.header-fixed.scroll-ativo{
-    transform: translate3d(0,0,0);
-}
-.header-fixed .container{ 
-} 
-.header-fixed .header-img{
-    max-width: 90px;
-    margin: 0 0 0 0;
-    @include MediaQueryMin(L){
-        max-width: 120px;
-    }
-}
-.header-fixed .menu-list{
-    width: unset;
-}
-.header-fixed a{
-    color: #000 !important;
 }
 @keyframes showmenu {
     from {
