@@ -1,0 +1,20 @@
+.curador-foto{
+    @include foto();
+    cursor: unset;
+}
+.curador-text{
+    @include MediaQueryMin(L){
+        width: 70%; 
+    }
+}
+.curador-nome{
+    @include nome();
+    text-align: center;
+    @include MediaQueryMin(L){
+        text-align: left;
+    }
+}
+.curador-bio{
+    @include bio();
+    padding: 0 8px;
+}

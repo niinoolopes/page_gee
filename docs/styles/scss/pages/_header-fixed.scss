@@ -1,0 +1,32 @@
+.header-fixed{
+  @include header_fixed();
+  display: none;
+  transform: translate3d(0,-150%,0);
+  @include MediaQueryMin(L){
+    display: block;
+    transition: .35s;
+  }
+} 
+.header-fixed .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-fixed.scroll-ativo{
+   transform: translate3d(0,0,0);
+}
+.header-fixed .header-img{
+  max-width: 100px;
+}
+.header-fixed .menu{
+  padding: 0;
+  width: fit-content;
+}
+.header-fixed nav a{
+  margin: 0 6px;
+  padding: 0 6px;
+  color: #000 !important;
+}
+.header-fixed nav a.link-out {
+  padding: 5px; 
+}

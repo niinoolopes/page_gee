@@ -11,7 +11,15 @@
 // @import 'config/_swiper';
 
 //pages
+@import 'pages/page';
 @import 'pages/_header';
+@import 'pages/_header-fixed';
 @import 'pages/_menu';
+@import 'pages/_footer';
 @import 'pages/intro';
-// @import 'pages/_index';
+@import 'pages/sobre';
+@import 'pages/palestrantes';
+@import 'pages/curador';
+@import 'pages/modal';
+@import 'pages/agenda';
+@import 'pages/patrocinadores';

@@ -1,0 +1,33 @@
+.patrocinador{
+    @include peddingSection();
+    background: #fafff0;
+}
+.patrocinador-titulo{
+    @include tituloSection();
+}
+.patrocinador-titulo:after{
+    @include tituloSectionAfter();
+}
+.patrocinadores{
+    padding: 32px 0;
+}
+.patrocinador-subTitulo{
+    @include tituloSection();
+    font-size: 1.125em;
+    margin: 10px auto;
+}
+.patrocinadores-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.patrocinador-logo{
+    display: block;
+    margin: 13px auto;
+    max-width: 150px;
+    @include MediaQueryMin(L){
+        max-width: 180px;
+        margin: 17px;
+    }
+}

@@ -1,0 +1,10 @@
+footer{
+    @include peddingSection(); 
+    text-align: center;
+}
+.footer-titulo{
+    @include tituloSection();
+}
+.footer-titulo:after{
+    @include tituloSectionAfter();
+}

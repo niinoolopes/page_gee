@@ -1,0 +1,39 @@
+.palestrante{
+    @include peddingSection()
+}
+.palestrante-titulo{ 
+    @include tituloSection()
+}
+.palestrante-titulo:after{
+    @include tituloSectionAfter();
+}
+.palestrante-desc{
+    margin: 0 0 20px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 2px;
+    background: #fafff0;
+}
+.palestrante-bloco{
+    text-align: center;
+    @include MediaQueryMin(L){
+        width: 30%;
+        overflow: hidden;
+        margin: 0 10px;
+    }
+} 
+.palestrante-foto{
+    @include foto();
+    @include MediaQueryMin(L){
+        width: 220px;
+        height: 220px;
+    }
+}
+.palestrante-nome{
+    @include nome();
+}
+.palestrante-bio{
+    @include bio();
+}
+// estilo curador
